@@ -43,6 +43,10 @@ body {
   cursor: pointer;
 }
 
-#delete:hover {
-  cursor: pointer;
+ul > li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(243, 175, 47);
+  font-weight: bold;
+  padding: 4px;
+  list-style-type: none;
 }
