@@ -10,6 +10,7 @@ function makeBtn() {
         submitBtn.addEventListener('click', function(e){
         e.preventDefault();
         const item = document.createElement('li');
+        item.className = 'lst-itm'
         const input = document.getElementById('submit');
         item.textContent = input.value; 
         if(input.value === '') {
@@ -17,7 +18,8 @@ function makeBtn() {
         } else
         ul.appendChild(item);
         input.value = '';
-        createDltBtn(item)       
+        createDltBtn(item)   
+        
     })
 }
 //function called:

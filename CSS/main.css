@@ -61,7 +61,7 @@ ul > li {
   color: papayawhip;
   border: solid 2px rgb(226, 27, 27);
   padding: 5px;
-  margin: 16px 16px 16px 0;
+  margin: 1px 16px 16px 8px;
 }
 
 .btn-remove:hover {
